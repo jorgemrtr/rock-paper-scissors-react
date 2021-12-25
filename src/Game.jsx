@@ -103,8 +103,10 @@ export default class Game extends React.Component {
                         </div>
                     </div>
                     <div className='game-stats'>
-                        <div>Player Score:{this.state.playerWins}</div>
-                        <div>Computer Score:{this.state.computerWins}</div>
+                        <div>Player Score:{' ' + this.state.playerWins}</div>
+                        <div>
+                            Computer Score:{' ' + this.state.computerWins}
+                        </div>
                     </div>
                 </div>
             </div>
