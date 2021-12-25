@@ -1,13 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font: 16px 'JetBrains Mono', sans-serif;
+    margin: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+    margin-bottom: 1.25rem;
+}
+
+.game-status {
+    margin-bottom: 1.25rem;
+}
+
+.choices {
+    margin-bottom: 1.25rem;
+}
+
+.choice {
+    padding: 0.5rem;
+    font-size: 1.15rem;
+    width: 100px;
+    height: 90px;
+    margin-right: 1.25rem;
+}
+
+.choice:last-child {
+    margin-right: 0;
+}
+
+.choice-icon {
+    font-size: 1.75rem;
+    margin-top: 0.25rem;
 }
